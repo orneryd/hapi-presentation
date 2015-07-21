@@ -1,0 +1,16 @@
+{
+  "name": "hapi-presentation",
+  "version": "1.0.0",
+  "dependencies": {
+    "browser-sync": "2.7.12",
+    "chalk": "^1.1.0",
+    "hapi": "*",
+    "http-proxy-agent": "^1.0.0",
+    "lodash": "^3.8.0",
+    "request": "^2.53.0",
+    "swig": "^1.4.2"
+  },
+  "scripts": {
+    "start": "node code/server.js"
+  }
+}
