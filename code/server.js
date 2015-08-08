@@ -45,6 +45,13 @@ var plugins = [
       config: config
       //httpAgent: require('./components/http-agent')
     }
+  },
+  {
+    register: require('./components/serverMethods.js'),
+    options: {
+      config: config
+      //httpAgent: require('./components/http-agent')
+    }
   }
 ];
 
@@ -123,3 +130,4 @@ server.register(plugins, {
  * @type {exports.server}
  */
 module.exports = server;
+
